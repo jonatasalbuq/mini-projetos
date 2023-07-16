@@ -107,11 +107,12 @@ input{
     border-style: none;
     cursor: pointer;
     background-color: var(--cor-btn-tituto);
+    font-weight: 700;
     margin-bottom: 20px;
 }
 
 #btn-login:active{
-    background-color: #769700
+    background-color: #769700;
 }
 
 #enter-with{
