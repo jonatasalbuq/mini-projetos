@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor1: #262625;
+    --cor2: white;
+    --cor3: #BDDEF2;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Anonymous Pro', monospace;
+    gap: 50px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor1);
+    color: var(--cor3);
+}
+
+#timer{
+    width: 100vw;
+    min-width: 90px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 4em;
+}
+
+#ms{
+    font-size: 2rem;
+    vertical-align: super;
+}
+
+button{
+    border-style: none;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 50%;
+    background-color: #8E95BF;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.486);
+}
+
+button > img{
+    width: 30px;
+}
+
+#start-btn{
+    background-image: url('');
+}
+
+#record-btn{
+    background-image: url('');
+    background-color: #8e95bf80;
+}
+
+#reset-btn{
+    background-image: url('');
+}
+
+select{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: none;
+    overflow-y: auto;
+    height: 200px;
+    outline-style: none;
+    color: #f2f2f2;
+    font-size: 1em;
+}
+
+option{
+    text-align: center;
+    padding: 5px;
+}
